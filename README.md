@@ -32,7 +32,7 @@ conda activate lc_agent
 2. **配置数据库**：确保 MySQL 数据库可访问，账号密码等信息在代码中明文配置。
 3. **运行 Agent**：
    ```bash
-   python agent_4.py
+   python agent.py
    ```
    按提示输入查询任务，Agent 会自动完成任务规划、SQL 生成、查询执行和结果格式化。
 
